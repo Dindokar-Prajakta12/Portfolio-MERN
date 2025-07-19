@@ -5,44 +5,44 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Music search App",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
-    color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
-  },
-  {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
-    description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "The Music Search App is a React application that lets users search for music tracks, artists, or albums using a public API like Spotify. It displays relevant music information, such as track titles and artist names, and uses Axios for API requests. The app features basic styling for a user-friendly experience, demonstrating effective API integration and state management in React.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://www.peppyocean.com/wp-content/uploads/2021/04/music-streaming-app.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/Dindokar-Prajakta12/music",
+    liveLink: "https://vmusic-alpha.vercel.app/",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "🚀 Book search web App",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "🚀 The Book Search App is a React-based application that allows users to search for books by title or author using a public API, such as the Google Books API. Users can input a query, and the app fetches and displays relevant book information, including titles, authors, and descriptions. The app leverages Axios for API requests and includes basic styling for a user-friendly interface💻✨",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+    link: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Books_HD_%288314929977%29.jpg",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "https://github.com/Dindokar-Prajakta12/Book",
+    liveLink: "https://bookhub-lyart.vercel.app/",
+  },
+   {
+    title: "On Click Services",
+    description:
+      "The Service Network Platform is a web-based app that connects service providers with consumers. It enables users to search for and book services across various categories, while providers can list and manage their offerings. Key features include user profiles, service listings, reviews, and real-time booking updates. Built with React, the platform offers a responsive, user-friendly interface for seamless interaction between users and providers.",
+    src: "rock.jpg",
+    link: "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    color: "#5196fd",
+    githubLink: "https://www.github.com",
+    liveLink: "https://www.github.com",
   },
   {
-    title: "CodeKori 🔥",
+    title: "Weather App 🔥",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "The Weather App is a simple React-based application that allows users to check the current weather conditions. By entering a location, users can view details such as temperature, humidity, and weather description. The app fetches weather data from a public API, like OpenWeatherMap, and displays it with a clean, user-friendly interface, showcasing basic React functionality and API integration.💻✨",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: "https://raw.githubusercontent.com/alexkowsik/react-weather-app/master/src/images/screenshot.png",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/Dindokar-Prajakta12/weather",
+    liveLink: "https://weather-one-rouge.vercel.app/",
   },
 ];
 

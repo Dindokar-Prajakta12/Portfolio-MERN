@@ -16,24 +16,35 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      school: "Indira Gandhi School , Shegaon",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
+      year: "2015-2016",
+      achievements: ["Percent : 79.60%", "Subject: Science"],
       skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
       description:
         "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "D.M. Burungle College , Shegaon",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2018-2019",
+      achievements: ["Percent : 60%", "Subject: Science"],
+       skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
       description:
         "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
     },
+     {
+      degree: "Bachlor's Degree in Computer science and engineering",
+      school: "MGICOET-Shegaon",
+      mascot: "📗",
+      year: "2019-2023",
+      achievements: ["GPA: 7.7", "Subject: CSE"],
+      skills: ["Literature", "Social Studies", "Economics", "History"],
+      description:
+        "A tech-driven field focused on software development, algorithms, data, and system design—combining coding skills with problem-solving to build innovative digital solutions.",
+    },
+    
   ];
 
   const containerVariants = {
@@ -141,7 +152,7 @@ const EducationSection = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-wrap gap-2">
+                {/* <div className="flex flex-wrap gap-2">
                   {edu.skills.map((skill, i) => (
                     <span
                       key={i}
@@ -150,7 +161,7 @@ const EducationSection = () => {
                       {skill}
                     </span>
                   ))}
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}

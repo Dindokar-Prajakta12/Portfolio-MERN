@@ -5,6 +5,7 @@ const ExperienceCard = ({
   title,
   company,
   period,
+  duration,
   description,
   icon: Icon,
 }) => (
@@ -33,6 +34,10 @@ const ExperienceCard = ({
             {period}
           </span>
         </div>
+         <p className="text-sm font-mono bg-blue-500/10 px-3 py-1 rounded-full text-white"> Duration : 
+  {duration}
+</p>
+
         <p className="text-gray-300 border-l-4 border-blue-500/50 pl-4 mt-4 leading-relaxed">
           {description}
         </p>
@@ -54,28 +59,22 @@ const ExperienceCard = ({
 const ExperienceSection = () => {
   const experiences = [
     {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
-      description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
-    },
-    {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Jr. Full Stack Developer",
+      company: "IMEXSUN private Limited, Pune",
+      period: "Aug-2024 -Present",
+      duration: "1 yr",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Worked in a dynamic tech environment, contributing to multiple full-stack projects using MongoDB, Express.js, React.js, and Node.js. Gained hands-on experience in building admin dashboards, user interfaces, RESTful APIs, and managing end-to-end project development. Collaborated closely with senior developers and learned industry best practices, code optimization, and deployment strategies. Developed strong debugging and problem-solving skills while continuously expanding technical knowledge.",
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      title: "Full Stack Developer - Intern",
+      company: "Main Flow Service Pvt Ltd.",
+      period: "Jun-2022 to dec-2022",
+      duration:"6 months",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "worked as a full stack web developer intern , building responsive web application using technologies like react, node.js, mongoDB . express js. Gained hand's pn experience in both frontend and backend development, api integration and deploying projects in a collaborative team environment",
     },
   ];
 
@@ -119,7 +118,9 @@ const ExperienceSection = () => {
           </div>
 
           {/* Experience grid with improved layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto"> */}
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 max-w-5xl mx-auto">
+
             {experiences.map((exp, index) => (
               <ExperienceCard key={index} {...exp} />
             ))}

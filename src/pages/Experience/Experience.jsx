@@ -60,21 +60,22 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Layers,
-      title: "Jr. Full Stack Developer",
-      company: "IMEXSUN private Limited, Pune",
-      period: "Aug-2024 -Present",
-      duration: "1 yr",
+      title: "Full Stack Developer intern",
+      company: "Nextastra Technologies pvt. ltd., Pune",
+      period: "feb-2025 to june-2025",
+      duration: "6 months",
       description:
-        "Worked in a dynamic tech environment, contributing to multiple full-stack projects using MongoDB, Express.js, React.js, and Node.js. Gained hands-on experience in building admin dashboards, user interfaces, RESTful APIs, and managing end-to-end project development. Collaborated closely with senior developers and learned industry best practices, code optimization, and deployment strategies. Developed strong debugging and problem-solving skills while continuously expanding technical knowledge.",
+        "worked as a full stack web developer intern , building responsive web application using technologies like react, node.js, mongoDB . express js. Gained hand's pn experience in both frontend and backend development, api integration and deploying projects in a collaborative team environment",
+       
     },
     {
       icon: Code2,
-      title: "Full Stack Developer - Intern",
-      company: "Main Flow Service Pvt Ltd.",
-      period: "Jun-2022 to dec-2022",
-      duration:"6 months",
+      title: "Software Developer + technical lead",
+      company: "Treleva Technologies.",
+      period: "Dec-2025 to present",
+      duration:"9 months + ongoing",
       description:
-        "worked as a full stack web developer intern , building responsive web application using technologies like react, node.js, mongoDB . express js. Gained hand's pn experience in both frontend and backend development, api integration and deploying projects in a collaborative team environment",
+      "Worked in a dynamic tech environment, contributing to multiple full-stack projects using mysql database, Express.js, React.js, and Node.js. Gained hands-on experience in building admin dashboards, user interfaces, RESTful APIs, and managing end-to-end project development. Collaborated closely with junior and senior  developers and learned industry best practices, code optimization, and deployment strategies. Developed strong debugging and problem-solving skills while continuously expanding technical knowledge.",
     },
   ];
 
